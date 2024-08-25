@@ -1,3 +1,4 @@
+import { CircleUserRound } from "lucide-react";
 import Image from "next/image";
 
 export default function Avatar({ author }) {
@@ -10,12 +11,13 @@ export default function Avatar({ author }) {
   return (
     <div className="flex items-center">
       <div className="w-12 h-12 relative mr-4">
-        <Image
+        {/* <Image
           src={author.node.avatar.url}
           layout="fill"
           className="rounded-full"
           alt={name}
-        />
+        /> */}
+        <CircleUserRound className="w-full h-full" strokeWidth="1" />
       </div>
       <div className="text-xl font-bold">{name}</div>
     </div>
