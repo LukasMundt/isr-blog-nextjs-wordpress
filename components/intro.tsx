@@ -27,7 +27,7 @@ export default function Intro() {
           Mundt.
         </h1>
         <div
-          className="text-3xl pl-1.5"
+          className="text-3xl pl-0 md:pl-1.5"
           style={{
             translate: "-" + y / 5 + "px",
           }}
